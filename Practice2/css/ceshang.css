@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:62.5%;
+}
+
+.container{
+    width:100%;
+    height:100%;
+}
+.hr{
+    height:4px;
+    background: lightgrey;
+    background: -webkit-linear-gradient(#e0e0e0, #f1f1f1);
+    background: -o-linear-gradient(#e0e0e0, #f1f1f1);
+    background: -moz-linear-gradient(#e0e0e0, #f1f1f1);
+    background: linear-gradient(#e0e0e0, #f1f1f1);
+}
+.btn-orange{
+    color:white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border:0;
+    background: -webkit-linear-gradient(#ee7952, #e16c47);
+    background: -o-linear-gradient(#ee7952, #e16c47);
+    background: -moz-linear-gradient(#ee7952, #e16c47);
+    background: linear-gradient(#ee7952, #e16c47);
+}
+.btn-green{
+    color:white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border:0;
+    background: -webkit-linear-gradient(#49bf2b, #36aa18);
+    background: -o-linear-gradient(#49bf2b, #36aa18);
+    background: -moz-linear-gradient(#49bf2b, #36aa18);
+    background: linear-gradient(#49bf2b, #36aa18);
+}
+.nav{
+    height: 60px;
+    margin:0 auto;
+    width:1150px;
+}
+#nav-logo{
+    margin-right:40px;
+}
+#nav-logo:hover{
+    background: none;
+}
+.nav-item {
+    width:80%;
+}
+.nav-item li {
+    list-style: none;
+    float:left;
+    background-image:url();
+    background-repeat: no-repeat;
+    font-size:12px;
+    font-weight: bold;
+    line-height:60px;
+    padding-right:5px;
+    margin-right:5px;
+}
+.nav-item a {
+    color:#5e5554;
+    text-decoration: none;
+}
+.nav-item .current{
+    background-image: url(../img/nav-item-bg.png);
+    background-size: 25%;
+    background-position: center bottom;
+}
+.nav-item .current a, .nav-item li:hover a {
+    color: #33a714;
+    text-decoration: none;
+}
+.nav-btn{
+    float: right;
+}
+.nav-btn li{
+    height:30px;
+    list-style: none;
+    float:left;
+    margin-right:5px;
+    margin-top:0.5em;
+    font-size: 16px;
+    font-weight: bold;
+}
+.portfolio h1{
+    padding:40px 0;
+    width:600px;
+    margin:auto;
+}
+.portfolio #portfolio-img {
+    width:75%;
+    margin:auto;
+}
+.portfolio #button-border{
+    height:62px;
+    width:302px;
+    margin:40px auto;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 5px;
+    border:1px solid rgb(224,93,47);
+}
+.portfolio #start-btn{
+    height:60px;
+    width:300px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border:1px solid rgb(251,115,69);
+    background: -webkit-linear-gradient(rgb(248,115,69), rgb(224,93,47));
+    background: -o-linear-gradient(rgb(248,115,69), rgb(224,93,47));
+    background: -moz-linear-gradient(rgb(248,115,69), rgb(224,93,47));
+    background: linear-gradient(rgb(248,115,69), rgb(224,93,47));
+    font-size:26px;
+    color:white;
+}
+.how{
+    background-image: url(../img/how-bg.png);
+    background-repeat: repeat;
+    padding-bottom: 20px;
+    z-index:100;
+}
+.how #how-step{
+    width:70%;
+    margin:0 auto;
+}
+.how h2{
+    padding:20px 0;
+    color:#453b3a;
+}
+.how-step-item{
+    padding:0 30px;
+}
+.how-step-item hr{
+    border:1px solid #d1cece;
+}
+.how-step-item img{
+    height:180px;
+    margin: 0 auto;
+}
+.how-step-item h3{
+    color:#a7a2a2;
+    font-weight: bolder;
+    font-size:26px;
+    margin-bottom: -10px;
+}
+.how-step-item h4{
+    margin-top: -10px;
+    color:#453b3a;
+    font-size: 26px;
+}
+.how-step-item h5{
+    color:#453b3a;
+    font-weight: 600;
+}
+.what {
+    color: #bba9a6;
+    width:60%;
+    margin:0 auto;
+    padding-bottom: 40px;
+}
+.what h1{
+    padding:40px 0;
+}
+.what-text{
+    font-size:16px;
+}
+.what-text p{
+    padding:5px 0;
+}
+.what #sign-btn{
+    float: right;
+    height:40px;
+    width:120px;
+    font-size:20px;
+}
+.footer{
+    background-image:url(../img/footer-bg.png);
+    background-repeat: repeat;
+    line-height: 80px;
+}
+#footer-logo{
+    margin: auto 100px auto 300px;
+}
+#footer-social{
+    height:24px;
+}
